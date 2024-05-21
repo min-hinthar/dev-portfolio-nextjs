@@ -35,7 +35,7 @@ const Hero = () => {
 
                 <div className="flex items-center justify-center h-[10rem] rounded-2xl w-full">
                     <TextRevealCard
-                        text="GenAI Next.js Developer"
+                        text="Gen-AI SaaS Developer"
                         revealText="My name is Min!"
                     >
                         <TextRevealCardTitle>
