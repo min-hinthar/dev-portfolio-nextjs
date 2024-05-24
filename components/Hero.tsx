@@ -4,6 +4,7 @@ import { TextGenerateEffect } from './ui/TextGenerateEffect'
 import MagicButton from './ui/MagicButton'
 import { FaLocationArrow } from 'react-icons/fa6'
 import { TextRevealCard, TextRevealCardDescription, TextRevealCardTitle } from './ui/TextRevealCard'
+import { socialMedia } from '@/data'
 
 const Hero = () => {
   return (
@@ -48,13 +49,34 @@ const Hero = () => {
                 </div>
 
                 {/* Aceternity Magic Button */}
-                <a href='#about'>
-                    <MagicButton 
-                        title='View Portfolio'
-                        icon={<FaLocationArrow />}
-                        position='right'
-                    />
-                </a>
+                <div className='items-center justify-center'>
+                    <a href='#projects' className='items-center'>
+                        <MagicButton 
+                            title='View Portfolio'
+                            icon={<FaLocationArrow />}
+                            position='right'
+                        />
+                    </a>
+                </div>
+
+                <div className='flex gap-8 pt-10 items-center ml-5'>
+                    {socialMedia.map(({ id, img, link }, index) => (
+                        <div
+                            key={id}
+                            className='border border-white/[0.2] rounded-full bg-black lg:w-10 lg:h-10 w-10 h-10 flex justify-center items-center'
+                            style={{ transform: `translateX(-${5 * index * 2}px)`}}
+                        >
+                            <a href={link} target='_blank' className='hover:scale-110 hover:bg-blue-900 rounded-full'>
+                                <img 
+                                    src={img}
+                                    alt={img}
+                                    className='p-2'
+                                />
+                            </a>
+                        </div>
+                    ))}
+                </div>
+
             </div>
         </div>
     </div>

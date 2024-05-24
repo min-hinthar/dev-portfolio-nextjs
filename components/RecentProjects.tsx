@@ -1,7 +1,8 @@
 import { projects } from '@/data'
 import { PinContainer } from "./ui/3d-pin";
 import React from 'react'
-import { FaLocationArrow } from 'react-icons/fa6';
+import { FaGithub, FaLocationArrow } from 'react-icons/fa6';
+import { FaGlobeAmericas } from 'react-icons/fa';
 
 const RecentProjects = () => {
   return (
@@ -20,6 +21,7 @@ const RecentProjects = () => {
                 img,
                 iconLists,
                 link,
+                github,
             }) => (
                 <div 
                     key={id}
@@ -50,7 +52,7 @@ const RecentProjects = () => {
                             <p className='lg:text-xl lg:font-normal font-light text-sm line-clamp-2'>
                                 {des}
                             </p>
-                        <div className='flex items-center justify-between mt-7 mb-3'>
+                        <div className='flex items-center justify-between mt-7 mb-3 text-md sm:text-xl'>
                             <div className='flex items-center'>
                                 {iconLists.map((icon, index) => (
                                     <div
@@ -66,13 +68,22 @@ const RecentProjects = () => {
                                     </div>
                                 ))}
                             </div>
-                            <div className='flex justify-center items-center'>
-                                <p className='flex lg:text-xl md:text-xs text-sm text-purple'>
+                            <div className='flex justify-center items-center hover:scale-110 hover:bg-purple rounded-full p-2'>
+                                <a href={github} target='_blank' className='flex text-white hover:text-black'>
+                                    GitHub
+                                </a>
+                                <FaGithub 
+                                    className='ms-3 bg-white rounded-full' 
+                                    color='black'
+                                />
+                            </div>
+                            <div className='flex justify-center items-center hover:scale-110'>
+                                <a href={link} target='_blank' className='flex text-purple'>
                                     Deployed Live Demo
-                                </p>
-                                <FaLocationArrow 
+                                </a>
+                                <FaGlobeAmericas 
                                     className='ms-3' 
-                                    color='#CBACF9'
+                                    color='skyblue'
                                 />
                             </div>
                         </div>
