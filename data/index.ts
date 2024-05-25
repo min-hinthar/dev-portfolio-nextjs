@@ -130,8 +130,8 @@ export const navItems = [
       des: "A modern YouTube clone React application with standing video sections, custom categories, channel pages, and video playback functionalities. The application will utilize the RapidAPI Youtube Version 3.0 public endpoint for fetching video data and utilizing endpoints such as search videos, suggested videos, video details, channel videos, channel details and etc.",
       img: "/Min_Tube_1.jpeg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://e-commerce-stripe-sanity-nextjs-app.vercel.app/",
-      github: "https://github.com/min-hinthar/e_commerce_stripe_sanity_react_app",
+      link: "https://dazzling-banoffee-e8e806.netlify.app/",
+      github: "https://github.com/min-hinthar/youtube_api_react_app",
     },
     {
       id: 8,
