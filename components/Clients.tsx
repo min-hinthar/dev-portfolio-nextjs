@@ -4,7 +4,7 @@ import React from 'react'
 
 const Clients = () => {
   return (
-    <section id='testimonials' className='mt-10'>
+    <section id='testimonials' className='py-10'>
         <h1 className='heading'>
             Testimonies by {' '}
             <span className='text-purple'>
