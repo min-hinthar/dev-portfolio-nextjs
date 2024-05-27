@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button } from './ui/MovingBorders'
 import MagicButton from './ui/MagicButton'
-import { FaCopyright, FaGithub, FaHandHoldingHeart, FaLaptopCode, FaLinkedin, FaLocationArrow, FaMailchimp, FaMapLocation, FaVoicemail } from 'react-icons/fa6'
+import { FaCopyright, FaGithub, FaHandHoldingHeart, FaHeart, FaLaptopCode, FaLinkedin, FaLocationArrow, FaMailchimp, FaMapLocation, FaVoicemail } from 'react-icons/fa6'
 import { MdEmail } from 'react-icons/md'
 import { FaHeartbeat } from 'react-icons/fa'
 
@@ -30,17 +30,20 @@ const Footer = () => {
                 className='w-full h-full opacity-50 z-0 translate-y-[-70%]'
             />
         </div>
-        <div className='flex justify-center items-center gap-2 pb-10 md:text-base md:font-normal'>
-            <a href='https://github.com/min-hinthar/dev-portfolio-nextjs' className='flex justify-center items-center gap-2 hover:text-purple'>
+        <div className='flex flex-col justify-between items-center text-sm gap-2 pb-10 lg:text-xl md:flex-row'>
+            <a href='https://github.com/min-hinthar/dev-portfolio-nextjs' target='_blank' className='flex justify-center items-center gap-2 hover:text-purple'>
                 <FaGithub />
                 Copyright 
-            </a>
                 <FaCopyright/>
-                2024 |
-            <a href='https://www.linkedin.com/in/minkkhant93/' target='_blank' className='hover:text-cyan-500 flex justify-center items-center gap-2'>
-                Min K Khant <FaLinkedin />
+                2024
             </a>
-            | Coded <FaLaptopCode className='hover:text-blue-600'/> with <FaHeartbeat className='hover:text-red-700'/>
+
+            <div className='flex items-center gap-1'>
+                <a href='https://www.linkedin.com/in/minkkhant93/' target='_blank' className='hover:text-cyan-500 flex justify-center items-center gap-2'>
+                    Min K Khant <FaLinkedin />
+                </a>
+                | Coded <FaLaptopCode className='hover:text-blue-600'/> with <FaHeart className='hover:text-red-700'/>
+            </div>
         </div>
 
     </footer>
