@@ -60,8 +60,8 @@ export const navItems = [
     },
     {
       id: 6,
-      title: "Do you want to start a project together?",
-      description: "",
+      title: "Ready to Collaborate?",
+      description: "အချိန်မရွေး ဆက်သွယ် လိုက်ပါခင်ဗျာ ",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
       titleClassName: "justify-center md:max-w-full max-w-60 text-center",
@@ -157,39 +157,33 @@ export const navItems = [
   export const testimonials = [
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "အမျိုးသားညီညွတ်ရေး အစိုးရမှရောင်းချသော ငွေတိုက်စာချုပ်များအား တော်လှန်ရေးအောင်စိတ်ဖြင့် ဝယ်ယူအားပေးသည့်အတွက် ကျေးဇူးတင်ဂုဏ်ပြုအပ်ပါသည်။",
+      name: "Duwa Lashi La",
+      title: "National Unity Government of Myanmar",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "သို့ မင်းကောင်းခန့် ကျွန်ုပ်တို့ အနေဖြင့် လူကြီးမင်းထံမှ ငွေတိုက်စာချုပ်အမှာစာကို လက်ခံရရှိပြီး၊ အောင်မြင်စွာ စီစစ်ခဲ့ပြီးဖြစ်ပါသည်။",
+      name: "Tin Tun Naing",
+      title: "Ministry of Planning, Finance and Investment",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Collaborating with Min was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Min's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Min is the ideal partner.",
+      name: "M.B San",
+      title: "Director of Hinthar INC",
     },
   ];
   
   export const companies = [
     {
       id: 1,
+      name: "OpenAI",
+      img: "/OpenAI.svg",
+      nameImg: "/OpenAI_white.svg",
+    },
+    {
+      id: 4,
       name: "cloudinary",
       img: "/cloud.svg",
       nameImg: "/cloudName.svg",
@@ -205,12 +199,6 @@ export const navItems = [
       name: "HOSTINGER",
       img: "/host.svg",
       nameImg: "/hostName.svg",
-    },
-    {
-      id: 4,
-      name: "stream",
-      img: "/s.svg",
-      nameImg: "/streamName.svg",
     },
     {
       id: 5,
@@ -230,7 +218,7 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
+      title: "Mobile App Dev - Hinthar INC",
       desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp2.svg",

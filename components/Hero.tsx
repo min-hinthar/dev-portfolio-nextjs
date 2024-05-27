@@ -31,7 +31,7 @@ const Hero = () => {
                 {/* Aceternity Text Generate Effect */}
                 <TextGenerateEffect 
                     className='text-center text-[40px] md:text-5xl lg:text-6xl'
-                    words='Transforming Concepts into Seamless User Experiences'
+                    words='Transforming Visions into Unparalleled User Experiences'
                 />
 
                 <div className="flex items-center justify-center h-[10rem] rounded-2xl w-full">
